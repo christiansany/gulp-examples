@@ -1,0 +1,25 @@
+{
+  "name": "gulp-examples",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/christiansany/gulp-examples.git"
+  },
+  "author": "Christian Sany, Thomas Jaggi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christiansany/gulp-examples/issues"
+  },
+  "homepage": "https://github.com/christiansany/gulp-examples#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.10.2"
+  }
+}
