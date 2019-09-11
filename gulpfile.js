@@ -7,7 +7,10 @@ var gulp = require('gulp'),
 	autoprefixer = require('autoprefixer');
 
 gulp.task('js', function() {
-	return gulp.src('src/*.js')
+	return gulp.src([
+			'node_modules/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
+			'src/*.js'
+		])
 		.pipe(jshint())
 		.pipe(jshint.reporter('default'))
 		.pipe(concat('main.js'))
