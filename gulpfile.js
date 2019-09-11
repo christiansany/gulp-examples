@@ -27,7 +27,9 @@ gulp.task('scss', function() {
 		.pipe(gulp.dest('dist/'));
 });
 
-gulp.task('default', function() {
+gulp.task('build', gulp.parallel('js', 'scss'));
+
+gulp.task('default', gulp.series('build', function watch() {
 	gulp.watch('src/*.js', gulp.series(['js']));
 	gulp.watch('src/*.scss', gulp.series(['scss']));
-});
+}));
