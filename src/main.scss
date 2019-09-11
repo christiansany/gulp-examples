@@ -1,0 +1,10 @@
+@import "settings";
+
+ul {
+  @extend %unstyled-list;
+
+  li {
+    color: $color-main;
+    display: block;
+  }
+}

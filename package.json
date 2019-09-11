@@ -16,9 +16,12 @@
   },
   "homepage": "https://github.com/christiansany/gulp-examples#readme",
   "dependencies": {
+    "autoprefixer": "^9.6.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "jshint": "^2.10.2"
   }
